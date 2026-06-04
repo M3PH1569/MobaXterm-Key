@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./assets/m3ph_logo.png" alt="MobaXterm Keygen Logo" width="120" />
   <h1>MobaXterm Keygen</h1>
-  <p><strong>Fast, and secure license generator and customizer.</strong></p>
+  <p><strong>Fast, and secure Key generator and customizer.</strong></p>
   
   <p>
     <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" /></a>
@@ -27,13 +27,14 @@ All processes run **100% locally** in your browser, ensuring maximum privacy and
 
 ### The Key Generator
 
-1. **Setup your License**:
+1. **Setup your Key**:
+   - Access this website [MobaXterm KeyGen](https://choss.my.id/mobaxterm-key/) to generate Key without installation. 
    - Choose your preferred MobaXterm Edition from the dropdown.
    - Enter your username (alphabetical characters only).
    - Input your current target version (e.g., `26.3`).
    - Define your desired number of users.
-2. **Generate**: Click the big **"Generate License"** button to start downloading your `Custom.mxtpro` key.
-3. **Deploy**: Drop this file inside your MobaXterm installation folder:
+3. **Generate**: Click the big **"Generate Key"** button to start downloading your `Custom.mxtpro` key.
+4. **Deploy**: Drop this file inside your MobaXterm installation folder:
    ```text
    C:\Program Files (x86)\Mobatek\MobaXterm
    ```
