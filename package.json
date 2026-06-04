@@ -1,0 +1,62 @@
+{
+  "name": "mobaxterm-keygen",
+  "version": "3.0.0",
+  "description": "Fast and secure license generator for MobaXterm",
+  "main": "main.js",
+  "homepage": "./",
+  "author": "M3PH1569",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder --win --publish never",
+    "build-portable": "electron-builder --win portable --publish never"
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
+  },
+  "build": {
+    "appId": "com.mobaxterm.keygen",
+    "productName": "MobaXterm KeyGen",
+    "files": [
+      "main.js",
+      "index.html",
+      "css/**/*",
+      "js/**/*",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "./assets/m3ph_logo.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "MobaXterm KeyGen",
+      "installerIcon": "./assets/m3ph_logo.ico",
+      "uninstallerIcon": "./assets/m3ph_logo.ico"
+    },
+    "portable": {
+      "artifactName": "${productName}-${version}-portable.exe"
+    }
+  },
+  "allowScripts": {
+    "electron-winstaller@5.4.0": true
+  }
+}
