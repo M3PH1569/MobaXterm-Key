@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/FtcF9ZP.png" alt="MobaXterm Keygen Logo" width="120" />
+  <img src="./assets/m3ph_logo.png" alt="MobaXterm Keygen Logo" width="120" />
   <h1>MobaXterm Keygen</h1>
   <p><strong>Fast, and secure license generator and customizer.</strong></p>
   
@@ -186,6 +186,6 @@ This tool operates completely **Client-Side** leveraging `Vue.js` and pure DOM m
 This project is licensed under the **MIT License** - see the LICENSE file for details.
 
 <div align="center">
-  <strong>Crafted with ❤️ by M3PH1569</strong><br>
+  <strong>Crafted with ☕ by M3PH1569</strong><br>
   <a href="https://github.com/M3PH1569/MobaXterm-Key">⭐ Star us on GitHub</a>
 </div>
